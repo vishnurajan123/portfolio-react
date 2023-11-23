@@ -11,11 +11,11 @@ import './App.css';
 // import Works from './Components/Works';
 import code1 from './Components/Images/code1.png'
 import code2 from './Components/Images/code2.png'
-import firstimage from './Components/Images/FireShot Capture 001 - React App - memory-game-vishnu.netlify.app.png'
+import firstimage from './Components/Images/quizapp.png'
 import hotstar from './Components/Images/hotstar.png'
 import budget from './Components/Images/budget.png'
-import interst from './Components/Images/interest.png'
-import netflix from './Components/Images/netflix.png'
+import interst from './Components/Images/doccs-app.png'
+import netflix from './Components/Images/hostel-manager.png'
 import weather from './Components/Images/weather.png'
 
 
@@ -66,7 +66,7 @@ function App() {
           <a class="nav-link active text-light" aria-current="page" href="#projects">Projects</a>
         </li>
         <li class="nav-item me-2">
-          <button className='btn btn-none text-light fs-4 ' onClick={darkmode}>{dark?<i class="fa-solid fa-sun"></i>:<i class="fa-solid fa-moon"></i>}</button>
+          <button className='btn btn-none text-light fs-4 ' onClick={darkmode}>{dark?<i class="fa-solid fa-lightbulb"></i>:<i class="fa-solid fa-moon"></i>}</button>
         </li>
        
         
@@ -90,7 +90,7 @@ function App() {
             <h2>A Proffesional Web Developer</h2>
             <div className='mt-2'> <button className='hire'><a style={{color:"white",textDecoration:"none"}} href='https://www.linkedin.com/in/vishnu-rajan-58a10627b/
 
-' target='_blank'>Hire me</a></button> <button className='cv'><a style={{textDecoration:"none"}} href='https://azure-marylee-56.tiiny.site/' target='_blank'>Download CV</a></button></div>
+' target='_blank'>Hire me</a></button> <button className='cv'><a style={{textDecoration:"none"}} href='https://peach-carmen-19.tiiny.site/' target='_blank'>Download CV</a></button></div>
         </div>
         <div className='secon'>
             <img src={code1} alt="" />
@@ -110,9 +110,9 @@ function App() {
             <p className={dark?"pblack":"whitep"}>
             I am very passionate about programming and website designing. My curiosity about the working of websites and applications has made me choose this field of profession. My goal is to add value to a team or a firm that i am a part off. 
             </p>
-            <div className='mt-2'> <button className='hire'><a style={{color:"white",textDecoration:"none"}} href='https://www.linkedin.com/in/vishnu-rajan-58a10627b/
+            <div className='mt-2'> <button className='hire'><a style={{color:"white",textDecoration:"none"}} href='https://github.com/vishnurajan123
 
-' target='_blank'>My work</a></button> <button className={dark?"cvblack cv":"cv"}><a style={{textDecoration:"none"}} href='https://azure-marylee-56.tiiny.site/' target='_blank'>Download CV</a></button></div>
+' target='_blank'>My work</a></button> <button className={dark?"cvblack cv":"cv"}><a style={{textDecoration:"none"}} href='https://peach-carmen-19.tiiny.site/' target='_blank'>Download CV</a></button></div>
 
 
         </div>
@@ -301,7 +301,7 @@ function App() {
     <div data-aos="fade-down-right" data-aos-duration="500" className='skillholder'>
         
                     <img id='js' src="https://justinmahar.gallerycdn.vsassets.io/extensions/justinmahar/react-bootstrap-snippets/2.0.18/1672248570584/Microsoft.VisualStudio.Services.Icons.Default" alt="" />
-                    <p  className='text-center fs-5'>React <br /> Bootstrap</p>
+                    <h5  className='text-center fs-5'>React <br /> Bootstrap</h5>
     </div>
     <div data-aos="fade-down-right" data-aos-duration="500" className='skillholder'>
         
@@ -327,11 +327,13 @@ function App() {
 
         <h1 className='text-center mt-5 pt-5'> <span className='hr'>|</span>Works</h1>
         <div className='wor container mt-5 pt-5 mb-5 pb-5'>
+            
+
             <div className='wr me-2'>
-                <img src={firstimage} alt="" />
+                <img src={interst} alt="" />
                 <div className='wrh'>
-                    <a target='blank' href="https://memory-game-vishnu.netlify.app/"> <h3>Live Demo</h3></a>
-                    <a target='blank' href="https://github.com/vishnurajan123/Memorygame.git"><h3>Github</h3></a>
+                    <a target='blank' href="https://doccs-app.vercel.app/"> <h3>Live Demo</h3></a>
+                    <a target='blank' href="https://github.com/vishnurajan123/doccs-app"><h3>Github</h3></a>
                 </div>
             </div>
 
@@ -340,6 +342,27 @@ function App() {
                 <div className='wrh'>
                     <a target='blank' href="https://hotstar-clone-react-vishnu.netlify.app/"> <h3>Live Demo</h3></a>
                     <a target='blank' href="https://github.com/vishnurajan123/hotstar-clone.git"><h3>Github</h3></a>
+                </div>
+            </div>
+            <div className='wr me-2'>
+                <img src={netflix} alt="" />
+                <div className='wrh'>
+                    <a target='blank' href="https://hostelmanager-tawny.vercel.app/"> <h3>Live Demo</h3></a>
+                    <a target='blank' href="https://github.com/vishnurajan123/hostelmanager"><h3>Github</h3></a>
+                </div>
+            </div>
+           
+
+            
+        </div>
+
+        <div className='wor container mt-5 mb-5 pb-5 '>
+           
+        <div className='wr me-2'>
+                <img src={firstimage} alt="" />
+                <div className='wrh'>
+                    <a target='blank' href="https://quiz-app-six-red.vercel.app/"> <h3>Live Demo</h3></a>
+                    <a target='blank' href="https://github.com/vishnurajan123/quiz-app"><h3>Github</h3></a>
                 </div>
             </div>
 
@@ -351,25 +374,9 @@ function App() {
                 </div>
             </div>
 
+
+
             
-        </div>
-
-        <div className='wor container mt-5 mb-5 pb-5 '>
-            <div className='wr me-2'>
-                <img src={interst} alt="" />
-                <div className='wrh'>
-                    <a target='blank' href="https://incredible-trifle-75c4d8.netlify.app/"> <h3>Live Demo</h3></a>
-                    <a target='blank' href="https://github.com/vishnurajan123/interest-app.git"><h3>Github</h3></a>
-                </div>
-            </div>
-
-            <div className='wr me-2'>
-                <img src={netflix} alt="" />
-                <div className='wrh'>
-                    <a target='blank' href="https://netflix-landing-page1.netlify.app/"> <h3>Live Demo</h3></a>
-                    <a target='blank' href="https://github.com/vishnurajan123/netflix-clone.git"><h3>Github</h3></a>
-                </div>
-            </div>
 
             <div className='wr me-2'>
                 <img src={weather} alt="" />
@@ -381,8 +388,7 @@ function App() {
 
             
         </div>
-
-
+ <p className='text-center'><a className={dark?"btn btn-light":"btn btn-dark"} href="https://github.com/vishnurajan123?tab=repositories" target='_blank'>View more</a></p>
     </div>
 
 
